@@ -1,0 +1,10 @@
+hostname test
+
+interface GigabitEthernet0/0
+ ip address dhcp
+ duplex auto
+ speed auto
+ media-type rj45
+ no shutdown
+
+end
